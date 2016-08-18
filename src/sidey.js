@@ -5,9 +5,8 @@
         $('.sidey-toggle').click(function(e){
             toggleSidebar($(this).data('toggle'));
         });
-        
+
         function toggleSidebar(direction){
-            console.log(element);
             if(direction === 'left'){
                 $(element).toggleClass('sidey-leftactive');
                 $('.sidey-content').toggleClass('sidey-leftpush');
