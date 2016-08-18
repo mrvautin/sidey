@@ -1,0 +1,36 @@
+{
+  "name": "sidey",
+  "version": "1.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrvautin/sidey"
+  },
+  "bugs": {
+    "url": "https://github.com/mrvautin/sidey/issues"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "minifyjs": "uglifyjs src/sidey.js -o dist/sidey.min.js",
+    "minifycss": "uglifycss src/sidey.css > dist/sidey.min.css"
+  },
+  "keywords": [
+    "offcanvas",
+    "sidebar",
+    "menu",
+    "bootstrap",
+    "small",
+    "simple"
+  ],
+  "description": "Quickly and easily add an offcanvas sidebar to any page",
+  "main": "app.js",
+  "author": "Mark Moffat",
+  "license": "MIT",
+  "homepage": "http://mrvautin.com",
+  "devDependencies": {
+    "eslint": "^3.2.0",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
