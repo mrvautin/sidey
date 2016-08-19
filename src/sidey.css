@@ -19,8 +19,8 @@
 .sidey-right{
     position: fixed;
     background-color: white;
-    right: -20%;
-    width: 20%;
+    right: -80%;
+    width: 80%;
     bottom: 0;
     top: 0;
     -webkit-transition: all 0.8s ease;
@@ -33,8 +33,8 @@
 .sidey-left{
     position: fixed;
     background-color: white;
-    left: -20%;
-    width: 20%;
+    left: -80%;
+    width: 80%;
     bottom: 0;
     top: 0;
     -webkit-transition: all 0.8s ease;
@@ -60,7 +60,7 @@
 .sidey-leftpush{
     position: fixed;
     overflow: hidden;
-    left: 20%;
+    left: 80%;
     width: 100%;
     background:rgba(113,113,113,0.5) !important;
     -webkit-transition: all 0.8s ease;
@@ -73,7 +73,7 @@
 .sidey-rightpush{
     position: fixed;
     overflow: hidden;
-    left: -20%;
+    left: -80%;
     width: 100%;
     background:rgba(113,113,113,0.5) !important;
     -webkit-transition: all 0.8s ease;
@@ -83,27 +83,7 @@
     transition: all 0.8s ease;
 }
 
-@media (max-width: 767px) { 
-    .sidey-leftpush{
-        left: 80%;
-    }
-
-    .sidey-rightpush{
-        left: -80%;
-    }
-
-    .sidey-right{
-        right: -80%;
-        width: 80%;
-    }
-
-    .sidey-left{
-        left: -80%;
-        width: 80%;
-    }
-}
-
-@media (max-width: 992px) { 
+@media only screen and (min-width : 762px) {
     .sidey-leftpush{
         left: 50%;
     }
@@ -120,5 +100,25 @@
     .sidey-left{
         left: -50%;
         width: 50%;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .sidey-leftpush{
+        left: 20%;
+    }
+
+    .sidey-rightpush{
+        left: -20%;
+    }
+
+    .sidey-right{
+        right: -20%;
+        width: 20%;
+    }
+
+    .sidey-left{
+        left: -20%;
+        width: 20%;
     }
 }
