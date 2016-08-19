@@ -1,0 +1,29 @@
+{
+  "name": "sidey",
+  "version": "1.0.2",
+  "authors": [
+    "Mark Moffat <mrvautin@gmail.com>"
+  ],
+  "description": "Quickly and easily add an offcanvas sidebar to any page",
+  "main": "dist/sidey.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "offcanvas",
+    "sidebar",
+    "menu",
+    "bootstrap",
+    "small",
+    "simple"
+  ],
+  "license": "MIT",
+  "homepage": "https://mrvautin.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
