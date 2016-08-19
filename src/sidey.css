@@ -19,6 +19,7 @@
 .sidey-right{
     position: fixed;
     background-color: white;
+    overflow-x: hidden;
     right: -80%;
     width: 80%;
     bottom: 0;
@@ -33,6 +34,7 @@
 .sidey-left{
     position: fixed;
     background-color: white;
+    overflow-x: hidden;
     left: -80%;
     width: 80%;
     bottom: 0;
@@ -47,7 +49,6 @@
 .sidey-content{
     position: relative;
     min-height: 100%;
-    overflow: hidden;
     left: 0%;
     width: 100%;
     -webkit-transition: all 0.8s ease;
@@ -59,7 +60,7 @@
 
 .sidey-leftpush{
     position: fixed;
-    overflow: hidden;
+    overflow-x: hidden;
     left: 80%;
     width: 100%;
     background:rgba(113,113,113,0.5) !important;
@@ -72,7 +73,7 @@
 
 .sidey-rightpush{
     position: fixed;
-    overflow: hidden;
+    overflow-x: hidden;
     left: -80%;
     width: 100%;
     background:rgba(113,113,113,0.5) !important;
