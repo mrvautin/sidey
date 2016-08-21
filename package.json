@@ -11,8 +11,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "minifyjs": "uglifyjs src/sidey.js -o dist/sidey.min.js",
-    "minifycss": "uglifycss src/sidey.css > dist/sidey.min.css"
+    "minify": "uglifyjs src/sidey.js -o dist/sidey.min.js && uglifycss src/sidey.css > dist/sidey.min.css"
   },
   "keywords": [
     "offcanvas",
