@@ -48,18 +48,21 @@
     position: fixed;
     overflow-x: hidden;
     width: 100%;
-    background:rgba(113,113,113,0.5) !important;
     transform: translate3d(80%, 0, 0);
     -webkit-transform: translate3d(80%, 0, 0);
 }
+
 
 .sidey-rightpush{
     position: fixed;
     overflow-x: hidden;
     width: 100%;
-    background:rgba(113,113,113,0.5) !important;
     transform: translate3d(-80%, 0px, 0px);
     -webkit-transform: translate3d(-80%, 0px, 0px);
+}
+
+.sidey-blur{
+    background:rgba(113,113,113,0.5) !important;
 }
 
 @media only screen and (min-width : 762px) {
@@ -100,6 +103,11 @@
         width: 20%;
         transform: translate3d(-100%, 0, 0);
         -webkit-transform: translate3d(-100%, 0, 0);
+    }
+
+    .sidey-leftactive{
+        transform: translate3d(0%, 0px, 0px) !important;
+        -webkit-transform: translate3d(0%, 0px, 0px) !important;
     }
 
     .sidey-rightpush{
