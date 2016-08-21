@@ -1,3 +1,4 @@
+/*! sidey v1.0.4 | MIT License | github.com/mrvautin/sidey */
 (function($){
     $.extend({
         sidey: function(options){
