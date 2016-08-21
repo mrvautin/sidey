@@ -60,6 +60,7 @@
                 $('.sidey-content').each(function(index){
                     $(this).removeClass('sidey-rightpush');
                     $(this).removeClass('sidey-leftpush');
+                    $(this).removeClass('sidey-blur');
                 });
             }
 
